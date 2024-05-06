@@ -132,21 +132,21 @@ h1::after {
   width: 160px;
   height: 1px;
   background: var(--accent);
-  margin: 10px auto 0; /* Расстояние от h1 (10px сверху, 0 снизу) */
-  position: absolute; /* Позиционирование абсолютно относительно h1 */
-  bottom: -40px; /* Поднять черточку на 10px относительно нижней границы h1 */
-  left: 50%; /* Положение по горизонтали */
+  margin: 10px auto 0;
+  position: absolute; 
+  bottom: -40px; 
+  left: 50%; 
   transform: translateX(-50%);
 }
 
-.march {
+.about {
   background: #e6e3c4;
   display: flex;
   align-items: flex-start;
   gap: 30px;
 }
 
-.march .main-paragraph {
+.about .main-paragraph {
   color: black;
   text-align: start !important;
 }
@@ -198,10 +198,10 @@ h1::after {
 .colli-text::after {
   content: "";
   position: absolute;
-  bottom: -15px; /* Расстояние от нижнего края элемента до линии подчеркивания, можно настроить по вашему вкусу */
+  bottom: -15px; 
   left: -15px;
   width: 355px;
-  border-bottom: 1px solid black; /* Цвет и стиль линии можно настроить по вашему вкусу */
+  border-bottom: 1px solid black; 
 }
 
 .colli {
@@ -235,12 +235,12 @@ h1::after {
   gap: 30px;
 }
 
-.march {
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Обязательно для позиционирования псевдоэлементов */
-  padding-top: 80px; /* Учитываем высоту псевдоэлемента ::before */
+  position: relative; 
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -255,8 +255,8 @@ h1::after {
   margin-bottom: 80px;
 }
 
-.march::before,
-.march::after {
+.about::before,
+.about::after {
   content: "";
   position: absolute;
   right: 0;
@@ -266,12 +266,12 @@ h1::after {
   background-color: var(--accent);
 }
 
-.march::before {
+.about::before {
   top: 0;
   margin-top: 80px;
 }
 
-.march::after {
+.about::after {
   bottom: 0;
   margin-bottom: 80px;
 }
@@ -399,9 +399,7 @@ form {
   display: flex;
   gap: 160px;
   width: 100%;
-  /* gap чтобы был в точности как на макете а так знаю что space-b можно */
   align-items: center;
-
   border: 1px white solid;
   border-right-color: transparent;
   border-left-color: transparent;
