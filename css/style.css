@@ -168,34 +168,34 @@ h1::after {
   background: #000000;
 }
 
-.colli-years {
+.marcelo-years {
   display: flex;
   gap: 50px;
   align-items: center;
   position: relative;
 }
 
-.colli-years h3 {
+.marcelo-years h3 {
   font-family: var(--Playfair);
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
 }
 
-.colli-years p {
+.marcelo-years p {
   font-size: 14px;
   line-height: 150%;
 }
 
-.colli-text {
+.marcelo-text {
   display: flex;
   flex-direction: column;
   gap: 5px;
   position: relative;
 }
 
-.colli-years::after,
-.colli-text::after {
+.marcelo-years::after,
+.marcelo-text::after {
   content: "";
   position: absolute;
   bottom: -15px; 
@@ -204,17 +204,17 @@ h1::after {
   border-bottom: 1px solid black; 
 }
 
-.colli {
+.marcelo {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.colli-years > p {
+.marcelo-years > p {
   position: relative;
 }
 
-.colli-years > p::after {
+.marcelo-years > p::after {
   content: "";
   position: absolute;
   top: -12px;
@@ -244,7 +244,7 @@ h1::after {
   padding-bottom: 80px;
 }
 
-.colli .btn {
+.marcelo .btn {
   display: inline-block;
   max-width: 250px;
 }
@@ -276,7 +276,7 @@ h1::after {
   margin-bottom: 80px;
 }
 
-.application .main-h2 {
+.recordation .main-h2 {
   background: #282828;
   width: 490px;
   height: 74px;
@@ -290,7 +290,7 @@ h1::after {
   max-width: 400px;
 }
 
-.application .main-h2::after {
+.recordation .main-h2::after {
   content: "";
   display: block;
   width: 160px;
@@ -300,7 +300,7 @@ h1::after {
   background: #ffffff;
 }
 
-.application {
+.recordation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -344,7 +344,7 @@ form {
   margin-top: 20px !important;
 }
 
-.application a {
+.recordation a {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.05em;
@@ -356,7 +356,7 @@ form {
   margin-bottom: 60px;
 }
 
-.application .main-paragraph {
+.recordation .main-paragraph {
   margin-top: 140px;
 }
 
